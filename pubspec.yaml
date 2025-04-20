@@ -1,0 +1,31 @@
+name: prac6
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.1
+
+environment:
+  sdk: ^3.6.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  just_audio: ^0.9.34
+  shared_preferences: ^2.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/images/alphabets/
+    - assets/images/numbers/
+    - assets/images/avatars/
+    - assets/audio/
+    - assets/audio/effects/
+    - assets/audio/pronounce/
+    - assets/fonts/
